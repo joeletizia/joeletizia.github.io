@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Cross Origin Resource Sharing"
+date:   2012-08-31 09:00:00
+categories: jekyll update
+---
+I never did much JavaScript programming at my last job. We were primarilly a ASP.Net WebForms shop and basically did everything with postbacks. Not the most efficient way to handle a web app, but for the small scale we were on, it wasn't much of an issue to be round tripping all the time.
+
+Now I've been trying to use JavaScript as much as possible and follow MVC paradigms. One of the huge advantages that JavaScript has is great library support, jQuery being at the forefront. jQuery encapsulates common functionality (along with a metric butt ton of other awesome stuff) such as AJAX, making it simple to make requests to the server asynchronously (dur...) to get data without doing a complete refresh of the page.
+
+However, beware of executing jQuery AJAX requests across multiple domains. Lets imagine you have a web app sitting on a server somewhere. That application wishes to consume data from a web service you've hosted somewhere else in your environment. These two applications sit on different servers with different domain names.
+
+If you request data from the web service via a jQuery AJAX call in your first web app (on the client side, obviously), you may run into an error mentioning Access-Control-Allow-Origin not being turned on. This is because the web server hosting your web service has not given the browser the go ahead to use CORS, or [Cross Origin Resource Sharing][cors-wiki].
+
+To turn this on, you must add a header to the HTTP Response coming back from the webservice. That header is `Access-Control-Allow-Origin: *`. The star can be replaced by the specific domain if you wish for added security. [Here is a nice little web resource I found here is a helpful start.][enable-cors]
+
+I spent an entire day trying to figure this out. Hopefully someone sees this and saves them self sometime.
+
+[enable-cors]: http://enable-cors.org/
+[cors-wiki]: http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
