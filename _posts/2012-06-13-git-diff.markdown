@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Git Diff + Git Add = -p"
+date:   2012-05-13 09:00:00
+categories: jekyll update
+---
+My general workflow for git looks something like this:
+
+* Think about what I want to do.
+* Create a branch in git off master.
+* Write really bad tests.
+* Write really bad code.
+* Check diffs to review what I did.
+* Stage changes.
+* Commit Changes.
+
+I've been using git for about a year now, and I always accomplished checking my diff by doing git diff. I would then add my changes by generally doing `git add .` I was very pleased to learn of `git add -p`. -p will run through each diff that is eligible for staging and give you the option on whether to stage them individually. This kills two birds with one stone. I am running through my diffs, checking for anything I may have done incorrectly, and staging each diff individually, in case there is a block I do not want to commit.
+
+Give it a try.
