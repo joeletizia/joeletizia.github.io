@@ -16,8 +16,8 @@ Takedowns:
 
 * Takedown to guard (double leg, single leg, etc), takedown to turtle position and spin behind: 1 pt
 * Ippon throw (force, technique, and speed) to the back.
-* Land in a guard: 2 points
-* Land past guard and hold position: 3 points
+  * Land in a guard: 2 points
+  * Land past guard and hold position: 3 points
 * No guard pulling without engaging your opponent and maintaining the position.
 
 These rules reward throwing and takedowns much better than the current BJJ rules, but don’t end the fight or penalize you the way judo currently does for leg attacks and things like that.
