@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Learning How to Teach"
+date:   2012-08-03 09:00:00
+categories: jekyll update
+---
+I never really gave teachers enough credit until I tried to pick up the craft myself. I remember teaching my first jiu jitsu class about 2 years ago. My instructor was hurt or on vacation and asked me to cover for him during the basic class. We weren't going over anything exciting. All the things he asked me to go over were things he had shown me 50 times before. I walked in thinking I would be fine. Hell, I was even cocky. "Why *wouldn't* they love me teaching?!?!"
+
+I arrived a few minutes early, started going over the material in my head, stretched out ahead of the class as everyone was pouring in... We begin class with the first technique I was instructed to show. I remembered what I was supposed to show, but *how* to show it was escaping me. I never thought of all the little details I follow through with as I'm pulling anything off. I must have spent 30 seconds showing that first technique. The new people in class must have been looking at me as if I had just explained the [Hiesenberg Uncertainty Principle][heisenberg-wiki] to their elementary school children... and I knew it.
+
+![Silly Dog](http://blog.smboyce.com/wp-content/uploads/2012/06/I-Have-No-Idea-What-Im-Doing.jpg "Silly Dog")
+
+It really took a long time to get the feel of teaching. You have to realize that not everyone (i.e. no one) thinks like you do. As a teacher, it's your responsibility to put things on a simple level; every student needs their own section of a [Rosetta Stone][rosetta-wiki] that you will be providing them.
+
+Starting my own teaching gig outside of helping out my instructor is proving to be a challenge. Marketing, insurance, money... They're all kind of scary. But teaching people poorly? Nope.
+
+[heisenberg-wiki]:http://en.wikipedia.org/wiki/Heisenberg_uncertainty_principle
+[rosetta-wiki]: http://en.wikipedia.org/wiki/Rosetta_stone
