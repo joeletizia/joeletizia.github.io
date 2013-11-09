@@ -1,14 +1,21 @@
+---
+---
 <!DOCTYPE html>
-<!-- saved from url=(0049)http://getbootstrap.com/2.3.2/examples/fluid.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="assets/bootstrap.css" rel="stylesheet">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -27,23 +34,22 @@
         }
       }
     </style>
-    <link href="assets/bootstrap-responsive.css" rel="stylesheet">
 
   </head>
 
   <body>
-  <div id="aboutModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-      <h3 id="myModalLabel">About Me</h3>
+    <div id="aboutModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">About Me</h3>
+      </div>
+      <div class="modal-body">
+        <p>I am a software developer working in NYC. I live in New Jersey and make that fact incredibly obvious. In my spare time I like to do Brazilian Jiu Jitsu.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+      </div>
     </div>
-    <div class="modal-body">
-      <p>I am a software developer working in NYC. I live in New Jersey and make that fact incredibly obvious. In my spare time I like to do Brazilian Jiu Jitsu.</p>
-    </div>
-    <div class="modal-footer">
-      <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    </div>
-  </div>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -70,45 +76,7 @@
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span9">
-          <div class="hero-unit">
-            <h1>Joe Letizia</h1>
-            <p>This is where I write my simple ramblings on martial arts, software, life, and other nonsense.</p>
-          </div>
-          <!-- content should go in here -->
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>First Post</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Second Post</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Third Post</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Forth Post</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Fifth Post</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Sixth Post</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
+          {{ content }}
         </div><!--/span-->
       </div><!--/row-->
 
@@ -123,21 +91,18 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/jquery.js"></script>
-    <script src="assets/bootstrap-transition.js"></script>
-    <script src="assets/bootstrap-alert.js"></script>
-    <script src="assets/bootstrap-modal.js"></script>
-    <script src="assets/bootstrap-dropdown.js"></script>
-    <script src="assets/bootstrap-scrollspy.js"></script>
-    <script src="assets/bootstrap-tab.js"></script>
-    <script src="assets/bootstrap-tooltip.js"></script>
-    <script src="assets/bootstrap-popover.js"></script>
-    <script src="assets/bootstrap-button.js"></script>
-    <script src="assets/bootstrap-collapse.js"></script>
-    <script src="assets/bootstrap-carousel.js"></script>
-    <script src="assets/bootstrap-typeahead.js"></script>
-
-  
-
+    <script src="/assets/jquery.js"></script>
+    <script src="/assets/bootstrap-transition.js"></script>
+    <script src="/assets/bootstrap-alert.js"></script>
+    <script src="/assets/bootstrap-modal.js"></script>
+    <script src="/assets/bootstrap-dropdown.js"></script>
+    <script src="/assets/bootstrap-scrollspy.js"></script>
+    <script src="/assets/bootstrap-tab.js"></script>
+    <script src="/assets/bootstrap-tooltip.js"></script>
+    <script src="/assets/bootstrap-popover.js"></script>
+    <script src="/assets/bootstrap-button.js"></script>
+    <script src="/assets/bootstrap-collapse.js"></script>
+    <script src="/assets/bootstrap-carousel.js"></script>
+    <script src="/assets/bootstrap-typeahead.js"></script>
 </body></html>
 

@@ -4,10 +4,38 @@ title: Joe Letizia
 ---
 
 <div id="home">
-  <h1>Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <div class="hero-unit">
+    <h1>Joe Letizia</h1>
+    <p>This is where I write my simple ramblings on martial arts, software, life, and other nonsense.</p>
+  </div>
+  <div class="row-fluid">
+    {% for post in site.posts limit: 3 %}
+    <div class="span4">
+      <h3>{{ post.title }}</h2>
+      <h4>{{ post.date | date_to_string }}</h4>
+      <p>{{ post.excerpt }}</p>
+      <p><a class="btn" href="{{ post.url }}">View details »</a></p>
+    </div><!--/span-->
     {% endfor %}
-  </ul>
+  </div><!--/row-->
+  <div class="row-fluid">
+    {% for post in site.posts limit: 3 offset: 3 %}
+    <div class="span4">
+      <h3>{{ post.title }}</h2>
+      <h4>{{ post.date | date_to_string }}</h4>
+      <p>{{ post.excerpt }}</p>
+      <p><a class="btn" href="{{ post.url }}">View details »</a></p>
+    </div><!--/span-->
+    {% endfor %}
+  </div><!--/row-->
+  <div class="row-fluid">
+    {% for post in site.posts limit: 3 offset: 6 %}
+    <div class="span4">
+      <h3>{{ post.title }}</h2>
+      <h4>{{ post.date | date_to_string }}</h4>
+      <p>{{ post.excerpt }}</p>
+      <p><a class="btn" href="{{ post.url }}">View details »</a></p>
+    </div><!--/span-->
+    {% endfor %}
+  </div><!--/row-->
 </div>
