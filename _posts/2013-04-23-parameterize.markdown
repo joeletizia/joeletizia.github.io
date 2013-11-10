@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Parameterize - URLs Don't Like to be Slashed'"
+title:  "Parameterize - URLs Don't Like to be Slashed"
 date:   2013-04-23 09:00:00
 categories: jekyll update
 ---
