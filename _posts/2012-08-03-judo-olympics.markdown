@@ -2,6 +2,7 @@
 layout: post
 title:  "Observations of the Olympics - A New Way to Grapple"
 date:   2012-08-03 09:00:00
+excerpt: "With the olympics on, I'm automatically gravitated to judo. Given that I'm a jiu-jitsu player, it's the closest thing we have to an olympic sport. You see some ground work that closely resembles what we do in BJJ, but there's significant differences."
 categories: jekyll update
 ---
 With the olympics on, I'm automatically gravitated to judo. Given that I'm a jiu-jitsu player, it's the closest thing we have to an olympic sport. You see some ground work that closely resembles what we do in BJJ, but there's significant differences. Compettition judo forces you to hunt for the submission/pin very quickly. The referees have a tendency to bring the fight back to standing if there is a momentary lapse in progression. I've always hated that, and I will never get over it. This is not to say that there's nothing wrong with competitive jiu-jitsu either. I think pulling guard without properly engaging is a complete waste of time as well, along with the minimal reward given to throws and takedowns.

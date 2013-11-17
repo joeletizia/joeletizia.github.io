@@ -2,6 +2,7 @@
 layout: post
 title:  "Learning How to Teach"
 date:   2012-08-03 09:00:00
+excerpt: "I never really gave teachers enough credit until I tried to pick up the craft myself. I remember teaching my first jiu jitsu class about 2 years ago. My instructor was hurt or on vacation and asked me to cover for him during the basic class. We weren't going over anything exciting. All the things he asked me to go over were things he had shown me 50 times before."
 categories: jekyll update
 ---
 I never really gave teachers enough credit until I tried to pick up the craft myself. I remember teaching my first jiu jitsu class about 2 years ago. My instructor was hurt or on vacation and asked me to cover for him during the basic class. We weren't going over anything exciting. All the things he asked me to go over were things he had shown me 50 times before. I walked in thinking I would be fine. Hell, I was even cocky. "Why *wouldn't* they love me teaching?!?!"
