@@ -21,7 +21,7 @@ title: Joe Letizia
   <div class="row-fluid">
     {% for post in site.posts limit: 3 offset: 3 %}
     <div class="span4">
-      <h3>{{ post.title }}</h2>
+      <h4>{{ post.title }}</h4>
       <h4>{{ post.date | date_to_string }}</h4>
       <p>{{ post.excerpt }}</p>
       <p><a class="btn" href="{{ post.url }}">Read »</a></p>
@@ -31,7 +31,7 @@ title: Joe Letizia
   <div class="row-fluid">
     {% for post in site.posts limit: 3 offset: 6 %}
     <div class="span4">
-      <h3>{{ post.title }}</h2>
+      <h4>{{ post.title }}</h4>
       <h4>{{ post.date | date_to_string }}</h4>
       <p>{{ post.excerpt }}</p>
       <p><a class="btn" href="{{ post.url }}">Read »</a></p>
