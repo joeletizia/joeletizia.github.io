@@ -5,7 +5,7 @@ date:   2014-01-13 09:00:00
 categories: jekyll update
 ---
 
-Consider the case where you wish to find records in a table, join those records to another table via a left join (all records of the original table, nulls for the non-matching records on the right) and filter out all the null results on the right hand column. In SQL, that would look something like this:
+Consider the case where you wish to find records in a table, join those records to another table via a left join (all records of the original table, nulls for the non-matching records on the right) and only return all the rows that result in NULLs on the right hand side. In SQL, that would look something like this:
 
 {% highlight sql %}
 SELECT COUNT(*) 
