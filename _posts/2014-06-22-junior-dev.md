@@ -1,12 +1,10 @@
 ---
 layout: post
 # TODO fix title
-title:  "Title Pending"
+title:  "Junior Developers"
 date:   2014-06-22 09:00:00
 categories: jekyll update
 ---
-# How to be a Junior Developer
-
 For close to a year, I had been working to find, and being employed in, my first true '9-5' software development job. It was an incredible experience and one that I'll never forget. The process of landing my first job was one of the hardest things I've had to do. Actually working at the job has been even harder, but so incredibly rewarding that I wanted to share my experiences in order to help more people gain employment in software development. 
 
 ### It's not Personal : It's Business
