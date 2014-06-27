@@ -28,13 +28,15 @@ The first key to becoming a developer is landing a job. For most, the route gene
 
 For a junior position, places outside of Google and Facebook aren't going to probe you for concepts that you didn't learn in school. However, you'll certainly want to be able to explain in what situations a certain data structure is more advantageous over another.
 
-I've been shopping around for data structures books for a few months. It seems that there is almost a unanimous consensus for Introduction to Algorithms (also known as the CLRS after the authors) to be the de facto standard. To this point, I find myself to be in agreement with those that gave it such high praise. A general understanding of all the points in the text should be a great stepping stone for even seasoned developers.
+I've been shopping around for data structures books for a few months. It seems that there is almost a unanimous consensus for [Introduction to Algorithms] (http://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844)(also known as the CLRS after the authors) to be the de facto standard. To this point, I find myself to be in agreement with those that gave it such high praise. A general understanding of all the points in the text should be a great stepping stone for even seasoned developers.
 
 ### Attitude is Everything
 
-The attitude with which you approach your position is (at some companies) more important than the state of your current skill set. If you are difficult to work with, have an abrasive personality, or are in some other way incapable of being a part of a team, your skill set can be inconsequential. There are many well regarded engineers out there that are regarded as "The Brilliant Jerk." These engineers are obviously very highly regarded for their ability. But working with them can be insufferable. Don't be a brilliant jerk.
+The attitude with which you approach your position is (at some companies) more important than the state of your current skill set. If you are difficult to work with, have an abrasive personality, or are in some other way incapable of being a part of a team, your skill set can be inconsequential. There are many well regarded engineers out there that are known as "The Brilliant Jerk." These engineers are obviously very highly touted for their ability. But working with them can be insufferable. Don't be a brilliant jerk.
 
 Don't be affraid of not being the best developer on your team. The people I work with code circles around me on a daily basis. However, you can still be a contributing member of a team as long as you have a good attitude and are continually progressing. 
+
+### Interviewing
 
 On my current team, we use a somewhat unique approach to interviewing. It's strikingly simple… but the fact remains that it is unique none-the-less. We simply invite candidates that pass a phone screen to complete a simple pair programming exercise with one of our developers using test-driven-development. There are no tricks, no riddles, and no counting grains of sand. This gives us a few key points:
 
@@ -100,14 +102,14 @@ A team's process might include some of the things below.
   * How does your CI system work? (Location, typical settings)
 * How to test
   * Unit testing
-    * Mocking and stubbing.
-    * How to notice smelly code via a test.
-    * How to write a valuable test.
-    * How to isolate your code from external dependencies.
+      * Mocking and stubbing.
+      * How to notice smelly code via a test.
+      * How to write a valuable test.
+      * How to isolate your code from external dependencies.
   * Integration testing
-    * What framework does the project use?
-    * Should I create database records in every test (factories) or do we use fixtures?
-    * How do I stub external dependencies and third party services?
+      * What framework does the project use?
+      * Should I create database records in every test (factories) or do we use fixtures?
+      * How do I stub external dependencies and third party services?
 
 All of these facets of your team's process are what make up the majority of what will be your area of expertise. I never really understood that until a few months into my first real engineering job. The best way it was illustrated to me was by one of our senior consultants. He knew I happened to enjoy martial arts. My friend explained to me that this knowledge was the basis of your repetoire, and you should fall back to it when you find yourself struggling; do your katas. In martial arts, katas are forms or drills that exemplify the basic mechanics of your art. It's typical to focus on these katas whenever you find yourself struggling or moving into non-trivial or improvisational aspects of your craft. Software is no different. Relying on your fundamentals is what will allow you to succeed.
 
@@ -115,4 +117,4 @@ All of these facets of your team's process are what make up the majority of what
 
 In order to succeed in your new team, you have to learn to trust it's members. Try to strike a relationship with one of the more senior people on your team. If you can, grab a coffee with them periodically to see if there's anything you may need to work on. If you have questions about a part of the code, a new pattern, or something else you don't understand, ask! One of the greatest aspects of surrounding yourself with a good team is that you will receive feedback on where you need work. This will increase the rate at which you improve your skills exponentially.
 
-Embracing feedback also includes knowing where you went wrong. If you do find yourself not understanding a concept or if you made a mistake on a project, accept the fact, admit it to yourself and your colleagues, and improve on that weakness. This shows your dedication to the project and team, as well as your ability to improve. If I could sum up what it meant to be a junior developer in one sentence, it would be "A developer who improves everyday." In that respect, all developers should be junior, but true beginners stand out by the velocity at which they improve. If you can show an ability to pick concepts up quickly and consistently, you are ahead of the game. 
+Embracing feedback also includes knowing where you went wrong. If you do find yourself not understanding a concept or if you made a mistake on a project, accept that fact, admit it to yourself and your colleagues, and improve on that weakness. This shows your dedication to the project and team, as well as your ability to improve. If I could sum up what it meant to be a junior developer in one sentence, it would be "A developer who improves everyday." In that respect, all developers could be considered junior in some aspect, but beginners gain distinction via the velocity at which they improve. If you can show an ability to pick concepts up quickly and consistently, you are ahead of the game. 
